@@ -35,7 +35,7 @@ async function run() {
     value: 0n,
     abi: erc20Abi,
     functionName: 'transfer',
-    args: [owner, FLEX.AMOUNT],
+    args: [owner, 1000000n],
   })
 
   const { magicAddress, estimatedFees } = await createMagicAddress({
@@ -50,7 +50,7 @@ async function run() {
     },
     srcTokens,
     config: {
-      baseUrl: 'https://magic-address-server.onrender.com',
+      baseUrl: 'https://magic-address-server-staging.onrender.com'
     },
   })
 
