@@ -23,7 +23,8 @@ async function run() {
     },
     {
       tokenType: 'USDC',
-      chain: optimism
+      chain: optimism,
+      minAmount: 1000000n // min amount of USDC to deposit
     },
   ]
 
@@ -50,7 +51,7 @@ async function run() {
     },
     srcTokens,
     config: {
-      baseUrl: 'https://magic-address-server-staging.onrender.com'
+      baseUrl: 'https://magic-address-server.onrender.com'
     },
   })
 

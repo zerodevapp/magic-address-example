@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zerodev/magic-address": "^0.0.8",
+    "@zerodev/magic-address": "^0.0.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
